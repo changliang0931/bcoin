@@ -78,6 +78,7 @@ var async = require('async');
     // use the fee estimator for this instead
     // of blindly guessing.
     rate: 1000,
+    selection: "all",//value, age,random
     // Send the change back to ourselves.
     changeAddress: "3EENzQdQS3BvvnkeJjC5uVwUKFuTczpnok"//keyring.getAddress()
   });
